@@ -3,15 +3,15 @@
 
 ## 1. Khởi tạo Model
 
-**Deploy API lên Modal:**
+### **Deploy API lên Modal:**
     ```bash
     python -m modal deploy main.py
     ```
-**Lấy URL endpoint** mà Modal cung cấp, ví dụ:
+### **Lấy URL endpoint** mà Modal cung cấp, ví dụ:
     ```
     https://your-org--stable-diffusion-app-fastapi-app.modal.run/generate
     ```
-**Kiểm tra API docs:**
+### **Kiểm tra API docs:**
     - Mở trình duyệt và truy cập: `https://<your-url>/docs`
     - Có thể thử gửi request trực tiếp tại đây.
 
